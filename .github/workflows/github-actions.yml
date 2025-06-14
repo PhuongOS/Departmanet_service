@@ -18,8 +18,8 @@ jobs:
     env:
       APP_PORT: 8881
       DB_URL: jdbc:mysql://10.211.55.6:3306/microservice?createDatabaseIfNotExist=true&characterEncoding=UTF-8&serverTimeZone=UTC
-      DB_USERNAME: "phuong"
-      DB_PASSWORD: "Password123@"
+      DB_USERNAME: "hoaiphuong"
+      DB_PASSWORD: "Abc12345@"
     runs-on: [self-hosted]
     needs: build
     steps:
