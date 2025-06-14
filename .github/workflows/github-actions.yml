@@ -17,7 +17,7 @@ jobs:
   deploy:
     env:
       APP_PORT: 8881
-      DB_URL: jdbc:mysql://localhost:3306/microservice?createDatabaseIfNotExist=true&characterEncoding=UTF-8&serverTimeZone=UTC
+      DB_URL: jdbc:mysql://10.211.55.6:3306/microservice?createDatabaseIfNotExist=true&characterEncoding=UTF-8&serverTimeZone=UTC
       DB_USERNAME: "root"
       DB_PASSWORD: "12345678"
     runs-on: [self-hosted]
