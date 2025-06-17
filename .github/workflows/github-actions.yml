@@ -18,7 +18,7 @@ jobs:
     env:
       APP_PORT: 8881
       DB_URL: ${{ secrets.DB_URL }}
-      DB_USERNAME: ${{ secrets.USERNAME }}
+      DB_USERNAME: ${{ secrets.USER_NAME }}
       DB_PASSWORD: ${{ secrets.PASSWORD }}
     runs-on: [self-hosted]
     needs: build
